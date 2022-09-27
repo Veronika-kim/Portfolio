@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronika Kim's Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+    href="https://fonts.google.com/specimen/Lora?query=lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <ink rel="stylesheet" href="css/projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8856d57f8b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+            <div class="navtoggle" id="myNavtoggle">
+            <nav class="nav d-flex align-items-center justify-content-between">
+                <a href="index.html"><img src="img/logo/Veronika Kim.svg" class="logo" alt="logo"></a>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#projects" onclick="menuToggle()">Projects</a></li>
+                    <li><a href="workprocess.html">How I work</a></li>
+                    <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+               <div class="hero">
+                <div class="styling">
+                    <p class="styling_text">User Experience / <br> User Interface Designer</p>
+                </div>
+                <div class="hero-text">
+                <h1 class="hero-h1">Hi I'm Veronika<span>I design intuitive interfaces that enhance user experiences</span></h1>
+            </div>  
+        </div>
+        <div class="specialty">
+            <h2 class="specialty_title">I specialize in:</h2>
+            <div class="specialty_items d-flex justify-content-between">
+                <div class="specialty_item">
+                    <h3>Market Research</h3>
+                    <p>Competitve analysis</p>
+                </div>
+                <div class="specialty_item">
+                    <h3>User Research</h3>
+                    <p>surveys <br>
+                        Interview <br>
+                        Research analysis <br>
+                        User Personas <br>
+                        User Journeys <br>
+                        User Testing</p>
+                </div>
+                <div class="specialty_item">
+                    <h3>Information <br>
+                        architecture</h3>
+                    <p>User flows <br>
+                        Sitemaps <br>
+                        Task Flows</p>
+                </div>
+                <div class="specialty_item">
+                    <h3>User interface</h3>
+                    <p>Wireframes <br>
+                        Prototypes</p>
+                </div>
+                <div class="specialty_item">
+                    <h3>Visual Design</h3>
+                    <p>Color scheme <br>
+                        Typography <br>
+                        Iconography</p>
+                </div>
+                <div class="specialty_item">
+                    <h3>Frontend <br> for Designers</h3>
+                    <p>HTML/CSS/JS<br>
+                        Git, Github<br>
+                        Testing / Debugging</p>
+                </div>
+            </div>
+            <a href="about.html"><button style="margin-top:50px;" class="button white">Learn more</button></a>
+        </div>
+        <div class="workprocess">
+            <div class="workprocess_intro">
+                <div class="workprocess_title d-flex justify-content-between">
+                    <h3>My work process:</h3>
+                    <p>Design thinking is at the core of creativity and innovation. It helps to build user-centered products that work in balance with technological and business requirements. By sticking to the general principles of design thinking, we ensure our focus is always on what matters the most - meeting users' needs and finding innovative solutions to solve their problems. </p>
+                </div>
+                <div class="workprocess_infographic">
+                    <h3>The design thinking process</h3>
+                    <img src="img/styling/The design thinking process.png" alt="">
+                </div>
+                <div class="workprocess_text">
+                    <p>The design thinking process is <span style="font-weight:bold;">iterative</span> and allows for flexibility and efficiency when encountering issues along the way. We start with <span style="font-weight:bold;">analyzing the market, empathizing with users, conceptualizing ideas</span> based on users’ needs and pain points, building <span style="font-weight:bold;">wireframes and prototypes</span>, and then <span style="font-weight:bold;">testing</span> with users for usability. Finally, the product is ready to be released to the public!</p>
+                </div>
+            </div>
+            <div><a class="button" href="workprocess.html">Learn more</a></div>
+        </div>
+        <div id="projects">
+                <h2 class="projects_title">My Projects</h2>
+                <div class="projects_row">
+                    <div class="projects_row1 d-flex row gx-3">
+                        <div class="left col-6">
+                            <a href="phr.html"><img class="project_img" src="img/PHR App/PHR Preview.png" alt="" ></a>
+                            <h3>Personal Health Records</h3>
+                            <p>Ux/Ui Case Study</p>
+                        </div>
+                        <div class="right col-6">
+                            <a href="mooclab.html"><img class="project_img" src="img/Mooclab/Mooclab Preview.png" alt=""></a>
+                            <h3>Mooclab</h3>
+                            <p>Ux/Ui Case Study</p>
+                        </div>
+                        <div class="left col-6">
+                            <img class="project_img" src="img/projectss/Coming Soon.png" alt="" >
+                            <h3>Accountability Partners</h3>
+                            <p>Ux/Ui Case Study</p>
+                        </div>
+                        <div class="right col-6">
+                            <img class="project_img" src="img/projectss/Coming Soon.png" alt="">
+                            <h3>Portfolio Website</h3>
+                            <p>Frontend Case Study</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="projects.html"><button style="margin-top:50px;" class="button white">Learn more</button></a>
+            </div>
+            <div class="quote">
+                <img class="quote_el" src="img/styling/element.png" alt="">
+                <div class="quote_text">“How do I explain what I do at a party? <br> The short version is that I say 
+                  <br>  I humanize technology.”</div>
+                    <div class="quote_author">— Fred Beecher, Director of UX, The Nerdery</div>
+            </div>
+    </main>
+    <footer id="contact">
+            <h2 class="contact_h1">Say Hello!</h2>
+            <p class="contact_p">I’m always open to new opportunities <br> and I love exchanging ideas on how to enhance customer experiences.
+<br>
+<br>
+                Let’s connect and keep the conversation going! <br>
+            Drop me a message or connect with me on Linkedin or Behance.
+            <div class="email"><a href="mailto:veronikakim.ig@gmail.com" class="button white">Send message</a></div>
+            <div class="social-links">
+                <a class="social-link" href="https://www.linkedin.com/in/veronikakim/">LinkedIn</a>
+                <a class="social-link" href="https://www.behance.net/veronikakimig">Behance</a>
+                
+            </div>
+            <p class="copyright">Copyright Veronika Kim 2022</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

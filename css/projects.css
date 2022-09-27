@@ -1,0 +1,19 @@
+#projects {
+    padding: 50px;
+    background-color: white;
+    color: #19191D;
+    height: 100%;
+  }
+
+  .project_img {
+    filter: opacity(100%);
+  }
+
+  .projects_title {
+      margin-top: 50px;
+  }
+
+  .mooclab_content,
+  .phr_content {
+    width: 100%;
+  }
