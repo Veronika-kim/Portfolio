@@ -17,3 +17,13 @@
   .phr_content {
     width: 100%;
   }
+
+  .video_title{
+    font-family: "Lora";
+    font-size: 30px;
+    font-weight: 600;
+    color: #19191D;
+    padding-bottom: 100px;
+    display: block;
+    padding: 50px;
+  }
