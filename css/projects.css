@@ -1,12 +1,11 @@
 #projects {
-    padding: 50px;
-    background-color: white;
-    color: #19191D;
+    padding: 75px 50px;
+    background-color: #19191D;
+    color: white;
     height: 100%;
   }
 
   .project_img {
-    filter: opacity(100%);
   }
 
   .projects_title {
@@ -26,4 +25,45 @@
     padding-bottom: 100px;
     display: block;
     padding: 50px;
+  }
+
+  .mooclab_title {
+    padding-left: 50px;
+  }
+
+
+
+/********************************** Interests **********************************/
+
+.qvant {
+  padding: 100px 50px 50px;
+}
+
+  .qvant_cover-img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .qvant_img {
+    display: block;
+    width: 100%;
+  }
+
+  .details {
+    margin: 3% 0;
+    margin-bottom: 4%;
+  }
+
+  .project_title {
+    font-family: "Lora";
+    font-size: 40px;
+    font-weight: 600;
+    margin: 3% 0;
+  }
+
+  .project_details {
+    width: 90%;
+    margin: 1% 0;
   }
